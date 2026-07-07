@@ -51,7 +51,7 @@ The six-port microwave network was simulated in Keysight ADS over the frequency 
 - The simulated output ports exhibit an insertion loss of approximately **−6 dB**.
 - The observed **−6 dB** response is expected from the six-port architecture. The input signal is initially divided equally by the **Wilkinson Power Divider**, producing a **−3 dB** power split. The signals are then further distributed through the **90° Hybrid Couplers**, resulting in an additional **−3 dB** division. Consequently, each output port receives approximately one-quarter of the input power, corresponding to an insertion loss of **−6 dB**.
 - The output responses remain nearly identical throughout the frequency sweep, demonstrating balanced power distribution and correct implementation of the six-port network.
-- 
+
 ### Phase Response
 - The phase responses vary continuously with frequency due to the propagation characteristics of the microwave network.
 - The abrupt transitions between **+180°** and **−180°** are caused by **phase wrapping**. ADS represents phase only within the range of **−180° to +180°**; therefore, when the actual phase exceeds this range, it wraps around without affecting the physical behaviour of the circuit.
