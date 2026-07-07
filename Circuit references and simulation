@@ -1,0 +1,9 @@
+The six-port network schematic was developed in Keysight Advanced Design System (ADS) by referring to the architecture presented in the research paper:
+
+Koelpin, A., Lurz, F., Linz, S., Mann, S., Will, C., & Lindner, S. Six-Port Based Interferometry for Precise Radar and Sensing Applications, Sensors, 2016.
+
+The reference paper presents a six-port interferometer architecture for radar and sensing applications operating in the 1–2 GHz frequency range. Based on the circuit topology described in the paper, the six-port network was recreated in ADS using ideal microwave components, including:
+1.Wilkinson Power Divider
+2.90° Hybrid Couplers
+3.50 Ω Terminations
+The ADS implementation was then simulated using S-parameter analysis to verify the magnitude and phase responses over different frequency ranges. This schematic serves as the initial design stage before any practical hardware implementation.
